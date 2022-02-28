@@ -4,6 +4,8 @@
 #
 #    pip-compile requirements/dev.in
 #
+asttokens==2.0.5
+    # via stack-data
 backcall==0.2.0
     # via ipython
 certifi==2021.5.30
@@ -21,6 +23,8 @@ decorator==5.0.7
     #   ipython
 elasticsearch==6.3.1
     # via -r requirements/requirements.txt
+executing==0.8.3
+    # via stack-data
 gunicorn==20.1.0
     # via -r requirements/requirements.txt
 h-pyramid-sentry==1.2.3
@@ -35,7 +39,7 @@ idna==2.10
     #   requests
 ipdb==0.13.9
     # via -r requirements/dev.in
-ipython==7.25.0
+ipython==8.1.0
     # via
     #   -r requirements/dev.in
     #   ipdb
@@ -77,6 +81,8 @@ prompt-toolkit==3.0.18
     # via ipython
 ptyprocess==0.7.0
     # via pexpect
+pure-eval==0.2.2
+    # via stack-data
 pygments==2.9.0
     # via ipython
 pyramid==2.0
@@ -92,6 +98,10 @@ sentry-sdk==1.0.0
     # via
     #   -r requirements/requirements.txt
     #   h-pyramid-sentry
+six==1.16.0
+    # via asttokens
+stack-data==0.2.0
+    # via ipython
 toml==0.10.2
     # via ipdb
 traitlets==5.0.5
@@ -118,12 +128,12 @@ webob==1.8.6
     # via
     #   -r requirements/requirements.txt
     #   pyramid
-zope.deprecation==4.4.0
+zope-deprecation==4.4.0
     # via
     #   -r requirements/requirements.txt
     #   pyramid
     #   pyramid-jinja2
-zope.interface==4.7.2
+zope-interface==4.7.2
     # via
     #   -r requirements/requirements.txt
     #   pyramid
