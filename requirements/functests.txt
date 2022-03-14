@@ -72,7 +72,7 @@ pyramid==2.0
     #   pyramid-jinja2
 pyramid-jinja2==2.8
     # via -r requirements/requirements.txt
-pytest==6.2.4
+pytest==7.1.0
     # via -r requirements/functests.in
 requests==2.26.0
     # via -r requirements/requirements.txt
@@ -84,7 +84,7 @@ six==1.15.0
     # via webtest
 soupsieve==2.2.1
     # via beautifulsoup4
-toml==0.10.2
+tomli==2.0.1
     # via pytest
 translationstring==1.4
     # via
@@ -109,12 +109,12 @@ webob==1.8.6
     #   webtest
 webtest==2.0.35
     # via -r requirements/functests.in
-zope.deprecation==4.4.0
+zope-deprecation==4.4.0
     # via
     #   -r requirements/requirements.txt
     #   pyramid
     #   pyramid-jinja2
-zope.interface==4.7.2
+zope-interface==4.7.2
     # via
     #   -r requirements/requirements.txt
     #   pyramid
