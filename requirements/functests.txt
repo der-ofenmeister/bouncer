@@ -8,7 +8,7 @@ attrs==20.3.0
     # via pytest
 beautifulsoup4==4.9.3
     # via webtest
-certifi==2021.5.30
+certifi==2022.12.7
     # via
     #   -r requirements/requirements.txt
     #   requests
@@ -109,12 +109,12 @@ webob==1.8.6
     #   webtest
 webtest==2.0.35
     # via -r requirements/functests.in
-zope.deprecation==4.4.0
+zope-deprecation==4.4.0
     # via
     #   -r requirements/requirements.txt
     #   pyramid
     #   pyramid-jinja2
-zope.interface==4.7.2
+zope-interface==4.7.2
     # via
     #   -r requirements/requirements.txt
     #   pyramid
